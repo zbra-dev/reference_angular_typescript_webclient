@@ -5,10 +5,11 @@ namespace Repository {
     import IQService = angular.IQService;
     import IPromise = angular.IPromise;
 
-    export class UserService {
+    export class UserRepository {
         static $inject = ['$q', '$http'];
 
-        constructor(private repository:UserRepository) {
+        constructor(private $q:IQService,
+                    private $http:IHttpService) {
         }
 
         public listAll(): IPromise<User[]> {
@@ -23,10 +24,10 @@ namespace Repository {
                         user.id = userData.id;
                         user.name = userData.name;
 
-                        users.push(user)
+                        users.push(user);
                     });
 
-                    deferred.resolve(users)
+                    deferred.resolve(users);
                 });
 
             return deferred.promise;

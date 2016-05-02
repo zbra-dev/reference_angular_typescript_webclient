@@ -63,16 +63,16 @@ namespace App {
 
     theme_.$inject = ['$mdThemingProvider'];
     function theme_($mdThemingProvider: IThemingProvider) {
-        let bilfingerLime = $mdThemingProvider.extendPalette('lime', {
+        let customLime = $mdThemingProvider.extendPalette('lime', {
             'A200' : 'dddc00'
         });
 
         $mdThemingProvider
-            .definePalette('bilfingerLime', bilfingerLime);
+            .definePalette('customLime', customLime);
         $mdThemingProvider
             .theme('default')
             .primaryPalette('blue')
-            .accentPalette('bilfingerLime', { 'default': 'A200' })
+            .accentPalette('customLime', { 'default': 'A200' })
             .warnPalette('red', { 'default': '500' });
     }
 

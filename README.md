@@ -17,7 +17,7 @@ Nothing Angular related (like services or modules) apply to this layer.
 
 #### Repository
 
-Although it might seem, by the nature of the word being generally associated with DataBases, something allien to rich web client development, archtecturaly speaking the Repository is the where we store the entities of our application. This layer will fill the role of the DAO but it will probably be interfacing with the Server instead of a DataBase. It will usually be performing queries and returing instances of entities provided by the model; converting server sent JSON (value objects) into application classes.
+Although it might seem, by the nature of the word being generally associated with DataBases, something allien to rich web client development, archtecturaly speaking the Repository is the where we store the entities of our application. This layer will interface with the Server instead of a DataBase. It will usually be performing queries and returing instances of entities provided by the model; converting server sent JSON (value objects) into application classes.
 
 Implementation of repositories are mostly done by using Angular services.
 

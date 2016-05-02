@@ -1,13 +1,13 @@
-# __THIS DOCUMENT IS A DRAFT__
-# Angular WebClient Template
+# __* THIS DOCUMENT IS A DRAFT *__
+# Angular WebClient Reference Project
 
 This project is a template for future developments and best pratices on developing rich clients using Angular and Typescript.
 
-## Architectire
+## Architecture
 
 We suggest regular 3 layer approach with some Angular specific organizarion of the Ui layer.
 
-![alt tag](https://github.com/zbra-solutions/template_angular_webclient/blob/gh-pages/Untitled%20Diagram.png)
+![alt tag](https://github.com/zbra-solutions/template_angular_webclient/blob/gh-pages/architecture.png)
 
 #### Model
 
@@ -63,6 +63,6 @@ Only required pre-installed software is NPM and WebStorm. Check out the project,
 * Download typings into __typings__ directory
 * Compile the empty less file into __assets/css/app.css__
 
-Additionally every update of any of the Bower (__bower.json__), Typings (__typings.json__) or any __.less_ file in __/less__ should trigger an automatic update commands such as after you SVN update, updated libraries, css and typings will not go unoticed.
+Additionally every update of any of the Bower (__bower.json__), Typings (__typings.json__) or any __.less__ file in __/less__ should trigger an automatic update commands such as after you SVN update, updated libraries, css and typings will not go unoticed.
 
 

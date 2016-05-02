@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="typings" pattern="file:typings.json" />
+</component>

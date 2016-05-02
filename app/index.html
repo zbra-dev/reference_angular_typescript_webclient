@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="xom-webclient">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/vnd.microsoft.icon">
+
+    <title>Your Application Title</title>
+
+    <link rel="stylesheet" href="assets/bower_components/angular-material/angular-material.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<md-content layout-fill="" ng-view></md-content>
+
+<script type="text/javascript" src="assets/bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="assets/bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="assets/bower_components/angular-aria/angular-aria.js"></script>
+<script type="text/javascript" src="assets/bower_components/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="assets/bower_components/angular-animate/angular-animate.js"></script>
+<script type="text/javascript" src="assets/bower_components/angular-material/angular-material.js"></script>
+<script type="text/javascript" src="assets/bower_components/angular-messages/angular-messages.js"></script>
+<script type="text/javascript" src="assets/bower_components/angular-translate/angular-translate.js"></script>
+<script type="text/javascript" src="assets/bower_components/lodash/dist/lodash.js"></script>
+
+<script type="text/javascript" src="constants.config.js"></script>
+<script type="text/javascript" src="constants.routes.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+<script type="text/javascript" src="assets/locale/en-us.js"></script>
+
+<!-- Models -->
+
+<!-- Repository -->
+<script type="text/javascript" src="repository/repository.module.js"></script>
+
+<!-- Service -->
+<script type="text/javascript" src="service/service.module.ts"></script>
+
+<!-- UI Components -->
+<script type="text/javascript" src="ui/components/loading-overlay.component.js"></script>
+<script type="text/javascript" src="ui/components/components.module.js"></script>
+
+<!-- UI Mediators -->
+
+<!-- UI Pages -->
+<script type="text/javascript" src="ui/pages/feature-1/feature-1.controller.js"></script>
+<script type="text/javascript" src="ui/pages/feature-1/feature-directive-1.directive.js"></script>
+<script type="text/javascript" src="ui/pages/feature-1/feature-directive-2.directive.js"></script>
+<script type="text/javascript" src="ui/pages/feature-1/feature-1.module.js"></script>
+
+</body>
+</html>

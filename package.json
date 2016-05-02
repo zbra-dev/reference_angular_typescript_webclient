@@ -1,0 +1,19 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/concurrently \"./node_modules/.bin/bower install\" \"./node_modules/.bin/typings install\" \"./node_modules/.bin/lessc --no-color less/app.less app/assets/css/app.css\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Copyright. All rights reserved.",
+  "private": true,
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "concurrently": "^2.0.0",
+    "less": "^2.6.1",
+    "typings": "^0.8.1"
+  }
+}

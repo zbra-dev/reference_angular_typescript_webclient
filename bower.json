@@ -1,0 +1,21 @@
+{
+  "name": "your-project-name",
+  "version": "0.0.0",
+  "license": "See license in LICENSE file",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.3",
+    "angular-route": "~1.5.3",
+    "angular-material": "~1.0.6",
+    "angular-translate": "^2.11.0",
+    "lodash": "~4.6.1",
+    "jquery": "~2.2.2"
+  }
+}

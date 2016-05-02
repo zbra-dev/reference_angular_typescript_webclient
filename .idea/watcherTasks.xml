@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions" suppressed-tasks="Babel">
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--no-color app.less" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" value="Compiles .less files into .css files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Less" />
+      <option name="output" value="$ProjectFileDir$/app/assets/css/app.css" />
+      <option name="outputFilters">
+        <array>
+          <FilterInfo>
+            <option name="description" value="lessc error format" />
+            <option name="name" value="lessc" />
+            <option name="regExp" value="$MESSAGE$$FILE_PATH$?:$LINE$:$COLUMN$" />
+          </FilterInfo>
+        </array>
+      </option>
+      <option name="outputFromStdout" value="true" />
+      <option name="program" value="$ProjectFileDir$/node_modules/.bin/lessc" />
+      <option name="scopeName" value="less" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$\less" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="install" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" value="Watches for bower.json changes" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="json" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Bower" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$ProjectFileDir$/node_modules/.bin/bower.cmd" />
+      <option name="scopeName" value="bower" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="install" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" value="Watches for typings.json changes" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="json" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Typings" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$ProjectFileDir$/node_modules/.bin/typings.cmd" />
+      <option name="scopeName" value="typings" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+  </component>
+</project>

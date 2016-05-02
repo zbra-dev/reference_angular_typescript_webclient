@@ -1,6 +1,7 @@
 # app pecific
 app/**/*.js
 app/**/*.js.map
+!app/assets/locale/*.js
 app/assets/css/**/*
 app/assets/bower_components/**/*
 node_modules/**/*

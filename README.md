@@ -1,4 +1,3 @@
-# __* THIS DOCUMENT IS A DRAFT *__
 # Angular WebClient Reference Project
 
 This project is a template for future developments and best pratices on developing rich clients using Angular and Typescript.

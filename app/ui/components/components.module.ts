@@ -2,6 +2,6 @@
 
 namespace UI.Components {
     angular
-        .module('xom-webclient.components', [])
+        .module('app.ui.components', [])
         .directive('loadingOverlay', () => new UI.Components.LoadingOverlayComponent());
 }

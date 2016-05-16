@@ -2,5 +2,5 @@
 
 namespace UI.Mediators {
     angular
-        .module('ui.mediators', []);
+        .module('app.ui.mediators', []);
 }

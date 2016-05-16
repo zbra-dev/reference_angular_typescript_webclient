@@ -1,8 +1,4 @@
 namespace App {
-    export class Routes {
-        public static Home = new HomeRoute();
-        public static UserEdit = new UserEditRoute();
-    }
 
     interface Route {
         template():string;
@@ -24,4 +20,8 @@ namespace App {
         }
     }
 
+    export class Routes {
+        public static Home = new HomeRoute();
+        public static UserEdit = new UserEditRoute();
+    }
 }

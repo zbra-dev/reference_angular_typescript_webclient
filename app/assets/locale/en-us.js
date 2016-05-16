@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('xom-webclient')
+        .module('app')
         .config(translate_);
 
     translate_.$inject = ['$translateProvider'];

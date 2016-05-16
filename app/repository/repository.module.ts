@@ -2,6 +2,6 @@
 
 namespace Repository {
     angular
-        .module('repository', [])
+        .module('app.repository', [])
         .service('UserRepository', Repository.UserRepository);
 }

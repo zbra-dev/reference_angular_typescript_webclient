@@ -10,7 +10,7 @@ namespace App {
     import ITranslateProvider = angular.translate.ITranslateProvider;
     import IRouteProvider = angular.route.IRouteProvider;
 
-    const SVG_ICON_PACK_URL = '/assets/images/icons.svg';
+    const SVG_ICON_PACK_URL = 'assets/images/icons.svg';
 
     angular
         .module('app', [
@@ -19,7 +19,6 @@ namespace App {
             'ngAria',
             'ngMessages',
             'ngMaterial',
-            'ngWebSocket',
             'pascalprecht.translate',
 
             // UI
@@ -41,13 +40,8 @@ namespace App {
     function route_($routeProvider: IRouteProvider) {
         $routeProvider
             .when(Routes.Home.template(), {
-                templateUrl: 'pages/home/home.html',
-                controller: 'HomeController',
-                controllerAs: 'ctrl'
-            })
-            .when(Routes.UserEdit.template(), {
-                templateUrl: 'pages/user-edit/user-edit.html',
-                controller: 'UserEditController',
+                templateUrl: 'ui/pages/feature-1/feature-1.html',
+                controller: 'Feature1Controller',
                 controllerAs: 'ctrl'
             })
             .otherwise({

@@ -2,6 +2,6 @@
 
 namespace Services {
     angular
-        .module('ui.services', [])
+        .module('app.services', [])
         .service('SessionService', Services.SessionService);;
 }
